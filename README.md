@@ -3,7 +3,7 @@
 While Promises are used to represent a single value that will be resolved or rejected in the future, Observables can represent multiple values over time. Observables can emit values continuously, whereas Promises only emit a single value.
 
 2. Cancellation:
-3. Unlike Promises, which cannot be canceled once a request is made, Observables can be canceled using the unsubscribe method. This feature is useful when you no longer need to listen to the events emitted by the Observable.
+Unlike Promises, which cannot be canceled once a request is made, Observables can be canceled using the unsubscribe method. This feature is useful when you no longer need to listen to the events emitted by the Observable.
 
 3. Lazy Execution:
 Promises execute immediately when they are created, while Observables are lazy and do not execute until someone subscribes to them. This lazy execution can help to reduce unnecessary computation and increase performance.
